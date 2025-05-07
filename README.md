@@ -14,33 +14,6 @@ This project demonstrates a **proof-of-concept implementation** of a **distribut
 
 ---
 
-## 🧩 Project Structure
-
-```
-NS_A4/
-├── CA/
-│   ├── private/
-│   ├── certs/
-│   ├── newcerts/
-│   ├── index.txt
-│   ├── openssl.cnf
-│   └── ... (CA configuration and setup files)
-├── client/
-│   ├── license_request.txt
-│   ├── client_key.pem
-│   ├── client_cert.pem
-│   └── ... (client-side license generation and signing)
-├── verifier/
-│   ├── license.txt
-│   ├── verify.sh
-│   └── ... (scripts to verify license authenticity)
-├── generate_ca.sh
-├── generate_license.sh
-└── README.md
-```
-
----
-
 ## 🔐 Cryptographic Workflow
 
 1. **Certificate Authority (CA)**:
@@ -130,13 +103,6 @@ Valid: Yes
 
 - This is a **simulated environment** and **not intended for production use**.
 - Focus is on understanding and demonstrating **PKI concepts** and **distributed verification**.
-
----
-
-## 👨‍💻 Author
-
-**Dushyant**  
-GitHub: [@dushyant18033](https://github.com/dushyant18033)
 
 ---
 
